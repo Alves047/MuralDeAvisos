@@ -1,3 +1,5 @@
 # Mural_De_Avisos
-Este projeto integra o Front-End com o Back-End, nos quais, respectivamente, insere os dados fornecidos pelo usuário nos campos "Title" e "Description" e salva-os temporariamente na maquina local onde esta rodando a aplicaçao. Este projeto é um teste/exemplo, usando alguns conceitos utlizados em algumas ferramentas para o Back-End, como por exemplo a biblioteca Mongoose (MongoDB com Javascript),  sendo possivel realizar a criaçao de um aviso, seguindo um padrao ou um "SCHEMA". O intuito desse codigo é mostrar com enfase toda estruturaçao na qual envolve o Back-End. Sendo assim, a estilizaçao da aplicaçao, bem como diversas outras funcionalidades pertinentes ao Front-End nao foram colocadas. 
+Este projeto simula a integraçao de funcionalidades do Front-End com o Back-End, inserindo os dados fornecidos pelo usuário nos campos "Title" e "Description" e salva-os temporariamente na maquina local onde esta rodando a aplicaçao. Este projeto teste/exemplo, utiliza alguns dos conceitos, tanto no Front quanto no Back-end, aonde cria um aviso seguindo um modelo padrao, possivel observar na imagem:
+![image](https://user-images.githubusercontent.com/85362752/167929916-f88dbf1e-0294-49b4-a0b0-ff383ce0a5d0.png)
+
 
