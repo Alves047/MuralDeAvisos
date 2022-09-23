@@ -11,19 +11,22 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./index.css" />
   </head>
 
-  <body class="mt-3">
-    <div class="container">
-      <div class="text-center">
-        <h3>New Post</h3>
-          <input id="title" placeholder="Title"><br>
-          <input id="desc" placeholder="Description"><br>
-          <button onclick="savePost()">Save</button> 
+  <body class="mt-3 container">
+    <div class="contetsBody">
+      <div class="text-center"> 
+        <div class="InputsElements container">
+          <h2><b>New Post</b></h2>
+          <input class="Inputs container " id="title" placeholder="Title" required />
+          <input class="Inputs container" id="desc" placeholder="Description" required />
+          <button class="Inputs btn btn-primary container" onclick="savePost()">Save</button>
+        </div>
       </div>
-      <h2 class="mt-4">Mural</h2>
+      <h2 class="mt-4"><b>Mural</b></h2>
       <div id="posts">
-           <!--Posts add pelo usuario aparecerao aqui-->  
+        <!--Posts add pelo usuario aparecerao aqui-->
       </div>
     </div>
 
